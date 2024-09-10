@@ -1,7 +1,7 @@
- services:
-  webplantilla:
-      build: ./webplantilla
-      ports:
+services:
+   webplantilla:
+     build: ./webplantilla
+     ports:
         - 8081:80
    api-students:
      build: ./api-students
